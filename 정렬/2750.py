@@ -8,6 +8,8 @@ for _ in range(T):
     x.append(int(input()))
 # print(x)
 
+# 선택 정렬
+
 for i in range(T):
     min_index = i
     for j in range(i+1,T):
