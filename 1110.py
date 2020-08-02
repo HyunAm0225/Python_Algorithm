@@ -14,11 +14,6 @@ first_num = int(input())
 x = first_num // 10
 y = first_num % 10
 count = 0
-# print(str(x)+str(y))
-# result = x + y
-# ans = int(str(y)+str(result%10))
-# print(type(ans))
-# print(ans)
 while True:
     count += 1
     result = x + y
