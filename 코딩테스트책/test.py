@@ -1,0 +1,10 @@
+a = {'한국','중국','일본'}
+print(a)
+a.add('중국')
+print(a)
+a.add('베트남')
+print(a)
+a.remove('일본')
+print(a)
+a.update({'홍콩','한국','태국'})
+print(a)
