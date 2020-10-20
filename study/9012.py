@@ -22,10 +22,10 @@ def check_vps(stack_list):
         else:
             temp_list.append(stack_list.pop())
     if not temp_list:
-        # print(temp_list)
+        print(temp_list)
         return "YES"
     else:
-        # print(temp_list)
+        print(temp_list)
         return "NO"
 for _ in range(t):
     data = list(input())
