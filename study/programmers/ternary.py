@@ -19,5 +19,5 @@ def solution(n):
 
 n = int(input())
     
-
+print(ternary(n))
 print(solution(n))
