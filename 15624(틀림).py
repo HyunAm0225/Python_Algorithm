@@ -1,12 +1,12 @@
-a = int(input())
+data = [0]*10000001
+n = int(input())
+def fibo(n):
+    if n<2:
+        return n
+    if data[n] != 0:
+        return data[n]
+    data[n] = fibo(n-2) + fibo(n-1)
+    return data[n]
 
-x = list(range(0,a+1))
-# print(x)
-for i in x:
-    if(i<2):
-        pass
-    else:
-        x[i] = x[i-2]+x[i-1]
-
-print(x.pop()%1000000007)
-
+    
+print(fibo(n)%1000000007)

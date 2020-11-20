@@ -1,9 +1,13 @@
 n = int(input())
 stage = list(map(int,input().split()))
 
+# 실패 확률 담기 
 fail_per = []
+# 성공한 사람 카운트
 clear_person = 0
+# 실패한 사람 카운트
 fail_person = 0
+# 1부터 N개의 스테이지 만큼 진행(Level1~LevelN)
 for i in range(1,n+1):
     for j in stage:
         if j>=i:

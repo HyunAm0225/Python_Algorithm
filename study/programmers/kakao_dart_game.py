@@ -41,3 +41,5 @@ def check_dart_point(dartque,point):
     return point
     
 print(sum(check_dart_point(dartque,point)))
+
+
