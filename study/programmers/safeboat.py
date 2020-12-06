@@ -16,6 +16,7 @@ while people:
         # 보트 사용 했으니까 카운트 플러스
         count += 1
         right -= 1
+        print(people)
     else:
         people.pop()
         try:
@@ -26,5 +27,6 @@ while people:
         except:
             count += 1
             break
+        print(people)
 
 print(count)
