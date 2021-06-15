@@ -8,6 +8,7 @@ def solution(skill, skill_trees):
     skill_dict = {}
     for index, item in enumerate(skill):
         skill_dict[item] = index
+    print(skill_dict)
     skill_tree_length = len(skill_trees)
     skill_trees = deque(skill_trees)
     fail = []
@@ -21,6 +22,7 @@ def solution(skill, skill_trees):
                     break
                 else:
                     skill_count += 1
+        print(fail)
     return skill_tree_length-len(fail)
 
 
